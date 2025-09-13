@@ -1,35 +1,40 @@
-Calibre Plugins – arXiv Search
+# 📚 Calibre Plugins – arXiv Search
 
-A Calibre plugin that lets you search, preview, and download academic papers from arXiv.org directly into your Calibre library.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-This plugin streamlines the workflow by fetching HTML versions of papers, converting them to EPUB, and importing them with complete metadata.
+A Calibre plugin that lets you **search, preview, and download academic papers from [arXiv.org](https://arxiv.org)** directly into your Calibre library.  
 
-✨ Features
+Fetch HTML versions of papers, convert them to **EPUB**, and import them with complete metadata automatically.
 
-🔍 Search arXiv by keywords
+---
 
-🗂️ Card-based results view for better browsing
+## ✨ Features
 
-📑 Preview paper details (title, authors, abstract)
+- 🔍 Search arXiv by keywords  
+- 🗂️ Card-based results view for easy browsing  
+- 📑 Preview paper details: title, authors, abstract  
+- 📥 Fetch HTML versions of selected papers  
+- 📚 Auto-convert to EPUB and add to your library  
+- 🏷️ Metadata automatically added:
+  - Title  
+  - Authors  
+  - Publication date  
+  - Abstract (in comments)  
+  - arXiv ID  
+  - `arXiv` tag  
 
-📥 Fetch HTML versions of selected papers
+---
 
-📚 Auto-convert to EPUB and add to your library
+## 📦 Installation
 
-🏷️ Metadata included: title, authors, abstract, arXiv ID, publication date, and arXiv tag
+### Method 1: GUI (Recommended)
+1. Download the plugin `.zip` file  
+2. Open **Calibre**  
+3. Go to **Preferences → Plugins**  
+4. Click **Load plugin from file** → Select the `.zip`  
+5. Restart Calibre  
 
-📦 Installation
-Method 1: GUI (Recommended)
+### Method 2: Command Line
+```bash
+calibre-customize -b /path/to/plugin.zip
 
-Download the plugin .zip file
-
-Open Calibre
-
-Navigate to Preferences → Plugins
-
-Click Load plugin from file and select the .zip
-
-Restart Calibre
-
-Method 2: Command Line
- 
