@@ -1,4 +1,3 @@
-# main.py
 import os
 import subprocess
 import re
@@ -229,23 +228,6 @@ class ArxivSearchDialog(QDialog):
 
 
 
-    # def fetch_html(self):
-    #     """fetches the html of the response"""
-    #     current = self.current_selected
-    #     paper = current.data(1)
-    #     paper_url = paper['arxiv_url']
-    #     paper_html = re.sub(r'(https?://arxiv\.org/)abs/', r'\1html/', paper_url)
-    #     req = urllib.request.Request(paper_html)
-    #     temp_html_path = os.path.expanduser('~/tempfiles/temp.html')
-    #     temp_epub_path = os.path.expanduser('~/tempfiles/temp.epub')
-    #     with urllib.request.urlopen(req, timeout=15) as response:
-    #         xml_data = response.read().decode('utf-8')
-    #     print(xml_data)
-    #     with open(temp_html_path, 'w') as f:
-    #         f.write(xml_data)
-    #     subprocess.run(['ebook-convert', temp_html_path, temp_epub_path])
-
-    #     print(xml_data)
 class ArxivSearchPlugin(InterfaceAction):
 
     name = 'arXiv Search Plugin'  # Must match the plugin name
